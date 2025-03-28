@@ -1,5 +1,7 @@
 - name: run mytest role
   hosts: all
+  vars_files:
+  - invs/myinvs/vault.yml
   roles:
   - mytest
 
