@@ -1,3 +1,3 @@
 - name: Print test message
   debug:
-    msg: "questo è un test {{testvariables} {{vault.myvaultvar}}"
+    msg: "questo è un test {{testvariables}} {{vault.myvaultvar}}"
