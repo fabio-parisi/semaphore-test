@@ -1,5 +1,5 @@
 - name: run mytest role
-  hosts: site
+  hosts: all
   roles:
   - mytest
 
